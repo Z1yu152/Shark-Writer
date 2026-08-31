@@ -1,0 +1,40 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local app state and user data
+文鲨写作/.app_state/
+文鲨写作/tmp*/
+文鲨写作/wensha_v*/
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs and packaging experiments
+文鲨写作/build/
+文鲨写作/dist/
+文鲨写作/*.egg-info/
+文鲨写作/*.exe
+文鲨写作/*_诊断*.spec
+文鲨写作/*_单文件.spec
+文鲨写作/qt_minimal_test.spec
+
+# QA screenshots and visual drafts
+/scripts/
+文鲨写作/qa_*.png
+ui_concepts/
+ui_concepts_v*/
+
+# Requirements document iteration history
+*.docx
+小说辅助软件需求文档_v*.docx
+~$*.docx
+
+# Temporary render folders
+tmp_render*/
+formal_requirements_render/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
